@@ -1,0 +1,89 @@
+body {
+  background-color: wheat;
+}
+
+.red-text {
+  color: red;
+  font-size: 32px;
+  padding: 0px;
+}
+
+p {
+  font-family: Monospace;
+  text-align: center;
+  padding: 0px;
+  margin: 0px
+}
+
+p1 {
+  font-family: Monospace;
+  text-align: left;
+  font-size: 12px;
+  color: red;
+}
+
+p2 {
+  font-family: Monospace;
+  text-align: left;
+  font-size: 24px;
+  color: red;
+}
+
+.medium-image {
+  width: 250px;
+}
+
+
+
+#sidebar {
+	width:5px;
+	float:left;
+
+}
+
+#content {
+	width:724px;
+	float:right;
+	padding-left:24px;
+}
+
+/* navigation */
+
+nav {
+	width: px;
+	background-color: wheat;
+	border:solid 1px rgb(220, 220, 220);
+	padding: 0px;
+  padding-bottom: 25px;
+}
+
+nav.stick {
+	position: fixed;
+	top: o;
+	z-index: 10000;
+	margin-top:0px;
+}
+
+nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0px;
+  text-align:center;
+}
+
+nav li {
+  display:inline;
+}
+
+nav li a {
+	color:red;
+  font-weight:700;
+  text-decoration:none;
+  font-family:Monospace;
+}
+
+a.nav-active {
+	color:#ccc;
+}
+
+/* this ends the CSS */
